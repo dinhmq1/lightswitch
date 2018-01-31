@@ -66,28 +66,28 @@
     color: white;
   }
   
-  .landing {
+  .gray-box {
     background-color: rgba(220, 220, 220, .7);
     padding: 15px 30px;
     border-radius: 5px;
   }
   
-  .landing > h1 {
+  .gray-box > h1 {
     color: #B10DC9;
   }
   
-  .landing > input, .landing > form > input {
+  .gray-box > input, .gray-box > form > input {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
   }
   
-  .landing > form {
+  .gray-box > form {
     width: 100%;
     min-width: 300px;
   }
   
-  .landing > a {
+  .gray-box > a {
     margin-top: 15px;
     padding: 10px 40px;
     background-color: #333;
@@ -98,11 +98,11 @@
     border-radius: 4px;
   }
   
-  .landing > a:hover, .landing > a:focus {
+  .gray-box > a:hover, .gray-box > a:focus {
     background-color: #666;
   }
   
-  .landing > a:active {
+  .gray-box > a:active {
     background-color: #fafafa;
     color: #333;
     border-color: #333;
@@ -121,10 +121,6 @@
     text-align: center;
   }
 
-  .light-switch-off > h1 {
-    color: white;
-  }
-  
   .light-switch-on {
     position: relative;
     width: 100%;
@@ -136,10 +132,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
-
-  .light-switch-on > h1 {
-    color: purple;
   }
 
   pre {
